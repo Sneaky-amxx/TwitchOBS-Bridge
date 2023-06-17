@@ -167,7 +167,7 @@ In order to use a sound with [`Play`](https://github.com/Sneaky-amxx/TwitchOBS-B
 There are a number of ways to support this project.
 
 - Support The original Author Kruiser through <a href="https://patreon.com/kruiser8">Patreon</a>.
-- Visit the original git <a href="https://github.com/Kruiser8/Kruiz-Control/tree/master</a>.
+- Check out the original work <a href="https://github.com/Kruiser8/Kruiz-Control/tree/master">Kruiz Control</a>.
 
 
 ***
