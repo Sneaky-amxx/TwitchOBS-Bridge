@@ -14,6 +14,7 @@ Twitch-OBS-Bridge enables a pseudo code approach to manage and automatically han
 
 ## Table of Contents
 
+- [FGC Trigger Scripts *Read After Finishing Setup Guide](#fgc-trigger-scripts)
 - [Setup Guide](#setup-guide)
 - [Compatibility](#compatibility)
 - [Installation](#installation)
@@ -37,6 +38,23 @@ Twitch-OBS-Bridge enables a pseudo code approach to manage and automatically han
 - Customize the _triggers.txt_ with your own triggers from the [the documentation](https://github.com/Sneaky-amxx/TwitchOBS-Bridge/blob/main/js/Documentation.md).
 
 ***
+
+## FGC Trigger Scripts
+
+### triggers.txt
+```
+OnCommand b 0 !p1name
+OBS Source p1name Text {after}
+Chat Send "Player 1 Name Changed!"
+
+OnCommand b 0 !p2name
+OBS Source p2name Text {after}
+Chat Send "Player 2 Name Changed!"
+
+OnCommand b 0 !roundformat
+OBS Source RoundFormat Text {after}
+Chat Send "Round Format Changed"
+```
 
 ## Compatibility
 
