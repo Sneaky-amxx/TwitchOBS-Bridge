@@ -1,4 +1,4 @@
-# Kruiz Control Settings
+# Twitch-OBS-Bridge Settings
 
 The following details each of the settings files that need to be filled out for each handler. An example is provided for each file.
 
