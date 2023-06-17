@@ -51,6 +51,9 @@ Twitch-OBS-Bridge enables a pseudo code approach to manage and automatically han
 **Chat Send** Sends a message to chat from whatever account's oauth you put into the settings/chat/oauth.txt file
 
 ### triggers.txt
+
+Here is an example of my triggers.txt which allows you to modify 3 parts of your tournament overlay including player 1 and player 2 names. As well as the round format from FT2, FT3, BO3, BO5, ect.
+
 ```
 OnCommand b 0 !p1name
 OBS Source p1name Text {after}
