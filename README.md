@@ -1,7 +1,7 @@
 # Kruiz Control
 
 <p align="center"><i>
-Twitch OBS Bridge enables a pseudo code approach to manage and automatically handle Twitch Channel Points, Twitch Chat, OBS or SLOBS, and StreamElements or Streamlabs alerts.
+Kruiz Control enables a pseudo code approach to manage and automatically handle Twitch Channel Points, Twitch Chat, OBS or SLOBS, and StreamElements or Streamlabs alerts.
 </i></p>
 <p align="center"><b>
   <a href="https://youtu.be/YaXLsWQuhLE">Tutorial</a> |
@@ -11,7 +11,10 @@ Twitch OBS Bridge enables a pseudo code approach to manage and automatically han
 </b></p>
 
 <p align="center"><i><b>
-  <a href="https://github.com/Kruiser8/Kruiz-Control/tree/master">Original Tool</a> 
+  <a href="https://twitter.com/kruiser8">@Kruiser8</a> |
+  <a href="https://trello.com/b/oIV3q6Im/kruiz-control">Trello (Roadmap)</a> |
+  <a href="https://patreon.com/kruiser8">Patreon</a> |
+  <a href="https://discord.gg/wU3ZK3Q">Support Discord</a>
 </b></i></p>
 
 ***
