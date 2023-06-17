@@ -31,16 +31,16 @@ Twitch-OBS-Bridge enables a pseudo code approach to manage and automatically han
 ## Setup Guide
 
 - (If using OBS) Install the [OBS Websocket Plugin](https://github.com/Palakis/obs-websocket/releases/latest) (version 5.0.0 or above). Reopen OBS after installing.
-- Fill out [the settings files](https://github.com/Kruiser8/Kruiz-Control/blob/master/settings/Settings.md) in the settings folder.
+- Fill out [the settings files](https://github.com/Sneaky-amxx/TwitchOBS-Bridge/blob/main/settings/Settings.md) in the settings folder.
 - Add the **index.html** to OBS/SLOBS as a browser source.
 - Type `!example` in your twitch chat. If your user responds with `Success! It worked!`, you're good to go!
-- Customize the _triggers.txt_ with your own triggers from the [the documentation](https://github.com/Kruiser8/Kruiz-Control/blob/master/js/Documentation.md).
+- Customize the _triggers.txt_ with your own triggers from the [the documentation](https://github.com/Sneaky-amxx/TwitchOBS-Bridge/blob/main/js/Documentation.md).
 
 ***
 
 ## Compatibility
 
-Kruiz Control supports
+Twitch-OBS-Bridge supports
 - Twitch Channel Points
 - Twitch Chat
 - Twitch Hype Trains
@@ -70,7 +70,7 @@ In OBS, click **Tools** > **WebSockets Server Settings** and enable the websocke
 It is **highly recommended** to use a password!
 
 ### Settings
-Before the script will work, you'll need to fill out all of the settings files. Please see the [settings description](https://github.com/Kruiser8/Kruiz-Control/blob/master/settings/Settings.md) for more information.
+Before the script will work, you'll need to fill out all of the settings files. Please see the [settings description](https://github.com/Sneaky-amxx/TwitchOBS-Bridge/blob/main/settings/Settings.md) for more information.
 
 ### Add as Browser Source
 Add the **index.html** file as a browser source within your broadcast software. It is *recommended* to add this source to one scene that is included in all other scenes (like your alert scene) rather than recreate this source in every scene.
@@ -79,7 +79,7 @@ Add the **index.html** file as a browser source within your broadcast software. 
 - In OBS, under **Sources** click the + icon to add a new **Browser** source.
 - Name it and select OK.
 - Check the `Local file` checkbox.
-- Click **Browse** and open the **index.html** file within the Kruiz Control script directory.
+- Click **Browse** and open the **index.html** file within the Twitch-OBS-Bridge script directory.
 - Recommended to set the width/height to 100 or less to reduce the size of the source.
 
 ***
@@ -87,7 +87,7 @@ Add the **index.html** file as a browser source within your broadcast software. 
 ## Usage
 
 ### Pseudo Code Format
-For information on the pseudo code format, please see [the documentation](https://github.com/Kruiser8/Kruiz-Control/blob/master/js/Documentation.md).
+For information on the pseudo code format, please see [the documentation](https://github.com/Sneaky-amxx/TwitchOBS-Bridge/blob/main/js/Documentation.md).
 
 ### triggers.txt
 Setup your triggers inside of this file if you do not need actions to be run one after another.
@@ -124,29 +124,10 @@ Delay 5
 ```
 
 ### sounds folder
-In order to use a sound with [`Play`](https://github.com/Kruiser8/Kruiz-Control/blob/master/js/Documentation.md#play), add the sound file to the *sounds* folder. The supported audio formats are mp3, wav, and ogg.
+In order to use a sound with [`Play`](https://github.com/Sneaky-amxx/TwitchOBS-Bridge/blob/main/js/Documentation.md#play), add the sound file to the *sounds* folder. The supported audio formats are mp3, wav, and ogg.
 
 ***
 
-## FAQ
-
-### XSplit Support
-The script should work with XSplit _BUT_ the OBS-like functionality will not work. XSplit does not provide a direct websocket interface to do such actions. It may be possible to implement a plugin that provides a websocket interface to connect with xsplit. If you know a way to achieve this, [please reach out](mailto:kruiser.twitch@gmail.com).
-
-### Support for Youtube Alerts
-I can definitely add support for Youtube alerts from Streamlabs. I just haven't had the time to implement it yet.
-
-More investigation time is needed to implement Youtube with StreamElements.
-
-### Support for Youtube Chat
-Potentially if I can find the libraries to implement it. Again, if you know a way to achieve this, please reach out via [twitter](https://twitter.com/kruiser8) or [discord](https://discord.gg/wU3ZK3Q).
-
-### Will you support X
-Please reach out if you have any ideas or other questions that were not covered in the documentation.
-
-Discord: [Kruiz Control Support Discord](https://discord.gg/wU3ZK3Q)
-
-Twitter: [@Kruiser8](https://twitter.com/kruiser8)
 
 ***
 
@@ -163,15 +144,8 @@ I do take commissions to implement custom functionality when necessary. Please r
 
 ***
 
-## Associated Projects
-
-- <a href="https://github.com/Kruiser8/Kruiz-Control-Documentation">Kruiz Control Documentation</a>.
-- <a href="https://github.com/Kruiser8/Kruiz-Control-Widget">Kruiz Control Widget Template</a>.
-- <a href="https://github.com/CrashKoeck/Kruiz-Control-Configurator">Kruiz Control Configurator</a> by <a href="https://github.com/CrashKoeck">CrashKoeck</a>.
-
-***
-
 ## Credits
+- [Kruiz Control](https://github.com/Kruiser8/Kruiz-Control/tree/master) (Kruiser8 - The main author)
 - [async](https://github.com/caolan/async) by Caolan McMahon (caolan)
 - [comfyjs](https://github.com/instafluff/ComfyJS) by Instafluff (instafluff)
 - [node-shlex](https://github.com/rgov/node-shlex) by Ryan Govostes (rgov)
