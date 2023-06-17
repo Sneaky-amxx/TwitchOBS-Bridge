@@ -1,4 +1,4 @@
-# Kruiz Control Documentation
+# Twitch-OBS-Bridge Documentation
 Each handler provides its own triggers and actions that can be used in a triggers file. These are detailed below after the general formatting.
 
 ## Table of Contents
