@@ -1,6 +1,8 @@
 # Twitch-OBS-Bridge
 
 <p align="center"><i>
+Original Made by @Kruiser8
+Modified by @Sneaky_amxx
 Twitch-OBS-Bridge enables a pseudo code approach to manage and automatically handle Twitch Channel Points, Twitch Chat, OBS or SLOBS, and StreamElements or Streamlabs alerts.
 </i></p>
 <p align="center"><b>
@@ -41,6 +43,12 @@ Twitch-OBS-Bridge enables a pseudo code approach to manage and automatically han
 
 ## FGC Trigger Scripts
 
+### Trigger Scripts Explanation
+
+**OnCommand b 0** Registers a chat command
+**OBS Source <Name> <Type>** Finds the name of a OBS Source and Type {after} captures any text after the !command
+**Chat Send** Sends a message to chat from whatever account's oauth you put into the settings/chat/oauth.txt file
+
 ### triggers.txt
 ```
 OnCommand b 0 !p1name
@@ -55,6 +63,8 @@ OnCommand b 0 !roundformat
 OBS Source RoundFormat Text {after}
 Chat Send "Round Format Changed"
 ```
+
+
 
 ## Compatibility
 
