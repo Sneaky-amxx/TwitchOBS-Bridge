@@ -1,26 +1,16 @@
-# Kruiz Control
+# Twitch-OBS-Bridge
 
 <p align="center"><i>
-Kruiz Control enables a pseudo code approach to manage and automatically handle Twitch Channel Points, Twitch Chat, OBS or SLOBS, and StreamElements or Streamlabs alerts.
+Twitch-OBS-Bridge enables a pseudo code approach to manage and automatically handle Twitch Channel Points, Twitch Chat, OBS or SLOBS, and StreamElements or Streamlabs alerts.
 </i></p>
 <p align="center"><b>
   <a href="https://youtu.be/YaXLsWQuhLE">Tutorial</a> |
-  <a href="https://github.com/Kruiser8/Kruiz-Control/archive/master.zip">Download</a> |
-  <a href="https://github.com/Kruiser8/Kruiz-Control/blob/master/js/Documentation.md#kruiz-control-documentation">Documentation</a> |
-  <a href="https://github.com/Kruiser8/Kruiz-Control/blob/master/settings/Settings.md#kruiz-control-settings">Settings</a>
+  <a href="https://github.com/Sneaky-amxx/TwitchOBS-Bridge/releases/download/Release/TwitchOBS-Bridge.rar">Download</a> |
+  <a href="https://github.com/Sneaky-amxx/TwitchOBS-Bridge/blob/main/js/Documentation.md">Documentation</a> |
+  <a href="https://github.com/Sneaky-amxx/TwitchOBS-Bridge/blob/main/settings/Settings.md">Settings</a>
 </b></p>
 
-<p align="center"><i><b>
-  <a href="https://twitter.com/kruiser8">@Kruiser8</a> |
-  <a href="https://trello.com/b/oIV3q6Im/kruiz-control">Trello (Roadmap)</a> |
-  <a href="https://patreon.com/kruiser8">Patreon</a> |
-  <a href="https://discord.gg/wU3ZK3Q">Support Discord</a>
-</b></i></p>
-
 ***
-
-<h3 align="center"><a href="https://github.com/CrashKoeck/Kruiz-Control-Configurator/releases">Kruiz Control Configurator</a></h3>
-<p align="center"><a href="https://github.com/CrashKoeck/Kruiz-Control-Configurator/releases">Kruiz Control Configurator</a> is a simple frontend for Kruiz Control made by <a href="https://github.com/CrashKoeck">CrashKoeck</a> which allows easy configuration of the settings files. Download the executable and add it into your Kruiz Control folder in order to manage your settings.</p>
 
 ## Table of Contents
 
@@ -35,14 +25,6 @@ Kruiz Control enables a pseudo code approach to manage and automatically handle 
   + [triggers.txt](#triggerstxt)
   + [fileTriggers.txt and the triggers folder](#filetriggerstxt-and-the-triggers-folder)
   + [sounds folder](#sounds-folder)
-- [FAQ](#faq)
-  + [XSplit Support](#xsplit-support)
-  + [Support for Youtube Alerts](#support-for-youtube-alerts)
-  + [Support for Youtube Chat](#support-for-youtube-chat)
-  + [Will you support X](#will-you-support-x)
-- [Support the Project](#support-the-project)
-- [Associated Projects](#associated-projects)
-- [Credits](#credits)
 
 ***
 
@@ -70,7 +52,7 @@ Kruiz Control supports
 - Timers (triggering on an interval)
 - Sending API calls
 
-and more in [the documentation](https://github.com/Kruiser8/Kruiz-Control/blob/master/js/Documentation.md)!
+and more in [the documentation](https://github.com/Sneaky-amxx/TwitchOBS-Bridge/blob/main/js/Documentation.md)!
 
 The script should run on any broadcast software that supports browser sources, however only OBS and SLOBS support changing scenes and sources.
 
