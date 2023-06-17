@@ -6,7 +6,6 @@ Modified by @Sneaky_amxx
 Twitch-OBS-Bridge enables a pseudo code approach to manage and automatically handle Twitch Channel Points, Twitch Chat, OBS or SLOBS, and StreamElements or Streamlabs alerts.
 </i></p>
 <p align="center"><b>
-  <a href="https://youtu.be/YaXLsWQuhLE">Tutorial</a> |
   <a href="https://github.com/Sneaky-amxx/TwitchOBS-Bridge/releases/download/Release/TwitchOBS-Bridge.rar">Download</a> |
   <a href="https://github.com/Sneaky-amxx/TwitchOBS-Bridge/blob/main/js/Documentation.md">Documentation</a> |
   <a href="https://github.com/Sneaky-amxx/TwitchOBS-Bridge/blob/main/settings/Settings.md">Settings</a>
@@ -46,7 +45,9 @@ Twitch-OBS-Bridge enables a pseudo code approach to manage and automatically han
 ### Trigger Scripts Explanation
 
 **OnCommand b 0** Registers a chat command
+
 **OBS Source <Name> <Type>** Finds the name of a OBS Source and Type {after} captures any text after the !command
+
 **Chat Send** Sends a message to chat from whatever account's oauth you put into the settings/chat/oauth.txt file
 
 ### triggers.txt
