@@ -1,0 +1,20 @@
+OnInit
+Chat Send "Script Initiated"
+
+OnCommand b 0 !example
+Chat Send "Success! It worked!"
+
+OnCommand b 0 !reload
+Reset
+
+OnCommand b 0 !p1name
+OBS Source p1name Text {after}
+Chat Send "Player 1 Name Changed!"
+
+OnCommand b 0 !p2name
+OBS Source p2name Text {after}
+Chat Send "Player 2 Name Changed!"
+
+OnCommand b 0 !roundformat
+OBS Source RoundFormat Text {after}
+Chat Send "Round Format Changed"
